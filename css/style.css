@@ -16,6 +16,24 @@
   }
 }
 
+@media (max-width: 1125px) and (min-width: 800px) {
+  .dv-card-prod-img {
+    max-height: 207px !important;
+    min-height: 207px !important;
+  }
+}
+
+/* Tablet screen */
+
+@media (max-width: 768px) and (min-width: 575px) {
+  .dv-card-prod-img {
+    max-height: 236px !important;
+    min-height: 173px !important;
+  }
+}
+
+/* Smartphone screen */
+
 @media (max-width: 575px) {
   .rated-prod-img {
     max-width: 120px !important;
@@ -28,6 +46,11 @@
   }
   .dv-card-prod {
     margin: 10px auto;
+    max-height: 173px !important;
+    max-width: 200px !important;
+  }
+  .dv-card-prod-img {
+    max-height: 9999px !important;
   }
 }
 
