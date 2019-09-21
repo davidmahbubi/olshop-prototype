@@ -7,6 +7,15 @@
   background-color: #00adb5;
 }
 
+@media (max-width: 440px) {
+  .dv-auth-container {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    max-width: 100% !important;
+    min-width: 100% !important;
+  }
+}
+
 .dv-bg-primary:hover {
   background-color: #008991;
 }
