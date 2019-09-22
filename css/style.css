@@ -2,6 +2,10 @@
   font-family: "Source Sans Pro", sans-serif;
 }
 
+i {
+  color: #00adb5;
+}
+
 /* Color Palette */
 .dv-bg-primary {
   background-color: #00adb5;
